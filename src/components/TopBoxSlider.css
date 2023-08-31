@@ -1,0 +1,82 @@
+.TBS_slider-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .TBS_slider {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .TBS_card-wrapper {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .TBS_slider-card {
+    flex: 0 0 300px; /* Adjust card width */
+    height: 400px; /* Adjust card height */
+    margin-right: 20px; /* Adjust card margin */
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0.3;
+  }
+  
+  .TBS_slider-card.visible {
+    opacity: 1;
+  }
+  
+  .TBS_prev-button,
+  .TBS_next-button {
+    margin: 10px;
+    padding: 5px 10px;
+    background-color: #d10202;
+    color: white;
+    outline: solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 400px;
+    width: 80px;
+  }
+
+  
+.TBS_gr_button{
+    transform: scale(2);
+}
+
+
+
+
+@media (max-width: 768px) {
+  .TBS_slider-card {
+    flex: 0 0 200px; /* Adjust card width */
+    height: 400px; /* Adjust card height */
+    margin-right: 20px; 
+  }
+  
+  .TBS_slider-container  {
+    order: 2;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    transform: scale(0.8);
+  }
+
+  .TBS_prev-button,
+  .TBS_next-button  {
+    display: inline-block;
+    order: 1;
+    width:40%;
+    height: 40px;
+    /* margin-top: 300px; */
+  }
+  .TBS_gr_button{
+    transform: scale(1.5);
+}
+}
+
+

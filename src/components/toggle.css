@@ -1,0 +1,18 @@
+.togglebutton{
+    transform: scale(3);
+    padding-left: 30px;
+    padding-top: 30px;
+    position: absolute;
+}
+
+/* .togglebutton :hover{
+    transform: scale(5);
+} */
+
+.on{
+    color: green
+}
+
+.off{
+    color:red
+}

@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:600|Work+Sans:400,500,600,700&display=swap");
+
+/* #menu-container {
+    position:relative;
+    white-space:normal;
+} */
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 83vh; /* Set a minimum height of 100% of the viewport height */
+  /* min-width: 100vw; */
+}
+.li-body {
+  background: linear-gradient(
+    135deg,
+    rgb(34, 193, 195) 0%,
+    rgb(255, 19, 19) 100%
+  );
+  font-family: "work sans";
+  overflow: visible;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  transform: scaleY(1);
+  /* transform: scaleY(1); */
+}
+
+@media (max-width: 767px) {
+  /* You can adjust the max-width value as needed */
+  body {
+    touch-action: manipulation; /* Prevent double tap zoom on some mobile devices */
+    zoom: 1; /* Prevent zooming */
+  }
+}
+.li.html {
+  font-size: 100%;
+}
+
+#loginform {
+  width: 35%;
+  height: auto; /* 100 % */
+  margin: 23px auto;
+  background-color: #ffffff;
+  border-radius: 25px;
+  text-align: center;
+  overflow: visible;
+}
+
+#loginform > img {
+  padding: 5px 35%;
+  width: 150px;
+  display: block;
+}
+
+#login-headerTitle {
+  text-align: center;
+  font-family: "open sans", sans-serif;
+  padding: 2rem 0;
+  margin: 0;
+  font-size: 1rem;
+  display: inline-block;
+  padding: 0px;
+  margin-left: -4px;
+  color: gray;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+  max-width: 100%;
+}
+
+.row input {
+  width: 80%;
+  box-sizing: border-box;
+  border: none;
+  font-size: 1.3rem;
+  padding-left: 1.5rem;
+  padding-bottom: 1rem;
+  box-shadow: inset 0px -3px 0px 0px rgba(187, 187, 187, 0.2);
+  transition: box-shadow 0.2s ease-in;
+}
+
+.row input:focus {
+  box-shadow: inset 0px -3px 0px 0px rgba(34, 193, 195, 0.7);
+  outline: none;
+}
+
+.row input::-webkit-input-placeholder {
+  opacity: 1;
+  transition: opacity 0.25s ease-out;
+}
+
+.row input:hover::-webkit-input-placeholder,
+.row input:focus::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+.row label {
+  align-self: start;
+  padding-left: 4.5rem;
+  padding-bottom: 0.5rem;
+  color: rgba(187, 187, 187, 0.9);
+}
+
+.row button {
+  border-radius: 25px;
+  width: 80%;
+  height: 40px;
+  font-size: 1.3rem;
+  color: white;
+  font-weight: 700;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    90deg,
+    rgb(251, 54, 54) 0%,
+    rgb(245, 143, 0) 100%
+  );
+  border: 0px;
+  cursor: pointer;
+  transition: opacity 0.25s ease-out;
+}
+
+.row button:hover {
+  opacity: 0.8;
+  transform: scale(1.03);
+}
+
+#button {
+  padding-bottom: 1.5rem;
+}
