@@ -1,4 +1,4 @@
-import SearchBar from "./SearchBar"
+import SearchBar from "../search_bar/SearchBar"
 import TopBoxSlider from "./TopBoxSlider"
 
 const ApplicationsBar = () => {

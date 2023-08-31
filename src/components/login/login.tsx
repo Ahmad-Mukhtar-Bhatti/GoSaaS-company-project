@@ -3,7 +3,7 @@ import "./login.css";
 import { useState } from "react";
 
 
-import img from "./images/gosaas.jpg";
+import img from "../images/gosaas.jpg";
 
 interface Props2 {
   title?: string;
