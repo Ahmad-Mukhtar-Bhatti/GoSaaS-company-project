@@ -1,6 +1,7 @@
 import "./login.css";
 // import { Link } from "react-router-dom";
 import { useState } from "react";
+// import { useNavigate } from "react-router-dom";
 
 
 import img from "../images/gosaas.jpg";
@@ -13,6 +14,9 @@ interface Props2 {
 }
 
 const Login = () => {
+
+  // const navigate = useNavigate();
+  
 
   const handleClick = async (username: string, password: string) => {
     console.log("The form was submitted with the following data:");
@@ -90,7 +94,7 @@ const Form = (props: any) => {
 
 const FormButton = (props: Props2) => (
   <div id="button" className="row">
-    <button onClick={()=>{props.onClick; alert("Log-in not implemented!!")}}>{props.title}</button>
+    <button onClick={()=>{props.onClick; alert("Log-in not implemented!!");}}>{props.title}</button>
   </div>
 );
 

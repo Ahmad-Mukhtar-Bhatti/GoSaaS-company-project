@@ -1,0 +1,19 @@
+.nav-bar {
+  display: flex;
+  font-size: 20px;
+  background-color: #111678;
+  padding: 13px;
+  color: #fff;
+  justify-content: space-between;
+  transform: translateZ(1120);
+}
+.youimage {
+  width: 120px;
+  margin-left: 30px;
+  transform: translateZ(1120); 
+}
+.user-icon {
+  font-size: 55px;
+  color: white; /* Icon color */
+  margin-right: 30px;
+}

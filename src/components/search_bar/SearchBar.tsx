@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./SearchBar.css";
+import { IoMdAddCircle } from "react-icons/io";
 
 interface Props {
   title: string;
@@ -69,6 +70,7 @@ const SearchBar = (props: Props) => {
           />
           <button type="submit" className="fas fa-search"></button>
         </form>
+        <IoMdAddCircle className="add-icon" />
       </nav>
     </div>
   );

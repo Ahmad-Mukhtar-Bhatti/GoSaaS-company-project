@@ -23,6 +23,7 @@
   justify-content: space-between;
   height: 70px;
   padding: 0 100px;
+  
 }
 .SB_nav .logo {
   color: #fff;
@@ -207,4 +208,9 @@
     margin: 0 10px;
     font-size: 16px;
   }
+}
+
+.add-icon {
+  font-size: 30px;
+  color: #fff;
 }
