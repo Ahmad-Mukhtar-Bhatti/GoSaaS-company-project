@@ -18,11 +18,12 @@ const TopBoxSlider = () => {
   
   
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [visibleCards, setVisibleCards] = useState<number>(calculateVisibleCards());
+  const [visibleCards,] = useState<number>(calculateVisibleCards());
 
   function calculateVisibleCards(): number {
     const screenWidth = window.innerWidth;
     const cardWidth = 300; // Adjust this to your card width
+    // setVisibleCards(visibleCards);
     return Math.floor(screenWidth / cardWidth);
   }
 

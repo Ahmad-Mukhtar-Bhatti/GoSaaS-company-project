@@ -22,7 +22,7 @@
     background: #152536;
   } */
   
-  a[href] {
+  /* a[href] {
     position: relative;
   }
   a[href], a[href]:link, a[href]:visited, a[href]:active {
@@ -47,7 +47,7 @@
     width: 100%;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
   }
-  
+   */
   
   article.card {
     position: relative;
